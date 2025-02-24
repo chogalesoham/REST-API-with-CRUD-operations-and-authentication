@@ -1,0 +1,19 @@
+{
+  "name": "04-rest-api-with-crud-and-authentication",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "REST API with CRUD operations and authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "soham chogale",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  }
+}
